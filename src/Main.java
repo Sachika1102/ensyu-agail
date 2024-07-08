@@ -6,7 +6,6 @@ public class Main {
 
         Player com = new Player("CPU");
 
-
         //入力指示表示
 
         System.out.println("1.グー");
