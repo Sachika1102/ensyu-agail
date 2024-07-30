@@ -1,22 +1,21 @@
-public class Main {
+//        //以降にテストコードを追加して検証を行う
 
-    public static void main(String[] args) {
+//        System.out.println("テスト結果");
 
-        Player user = new Player("ユーザ");
-
-        Player com = new Player("CPU");
+//        System.out.println(user.getHand().getHandName());
 
 
-        //入力指示表示
 
-        System.out.println("1.グー");
+       //comの手を生成
 
-        System.out.println("2.チョキ");
+       com.createRandomHand();
 
-        System.out.println("3.パー");
+       //以降にテストコードを追加して検証を行う
 
-        System.out.println("あなたの手を選択してください。>");
 
-    }
+//以降にテストコードを追加して検証を行う
 
-}
+System.out.println("ランダムなジャンケンの手をCPUにセットする");
+
+System.out.println(com.getHand().getHandName());
+
